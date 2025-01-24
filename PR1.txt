@@ -1,0 +1,121 @@
+dasfsafdasddjfjsjdpfsddjfjsddd
+ajaba@AMIRMAHDI MINGW64 ~
+$ cd D:/PROGRAMING/GIT/PROJECT
+ajaba@AMafdaIRMAHDI MINGW64 /d/PROGRAMING/GIT/PROJECT (master)
+$ git initasda
+Initialized emsdfpty Git repository in D:/PROGRAMING/GIT/PROJECT/.git/
+as
+ajsxaba@AMIRMAHDI MINGW64 /d/PROGRAMING/GIT/PROJECT (master)
+$ touch PR1.txt
+
+ajaba@AMIRMAHDI MINGW64 /d/PROGRAMING/GIT/PROJECT (master)
+$ git status PR1.txt
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        PR1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ajaba@AMIRMAHDI MINGW64 /d/PROGRAMING/GIT/PROJECT (master)
+$ git add PR1.txt
+
+ajaba@AMIRMAHDI MINGW64 /d/PROGRAMING/GIT/PROJECT (master)
+$ git status PR1.txt
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   PR1.txt
+
+
+ajaba@AMIRMAHDI MINGW64 /d/PROGRAMING/GIT/PROJECT (master)
+$ git rm PR1.txt
+error: the following file has changes staged in the index:
+    PROJECT/PR1.txt
+(use --cached to keep the file, or -f to force removal)
+
+ajaba@AMIRMAHDI MINGW64 /d/PROGRAMING/GIT/PROJECT (master)
+$ git status PR1.txt
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   PR1.txt
+
+
+ajaba@AMIRMAHDI MINGW64 /d/PROGRAMING/GIT/PROJECT (master)
+$ git status PR1.txt
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   PR1.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   PR1.txt
+
+
+ajaba@AMIRMAHDI MINGW64 /d/PROGRAMING/GIT/PROJECT (master)
+$ GIT INIT
+git: 'INIT' is not a git command. See 'git --help'.
+
+
+
+ajaba@AMIRMAHDI MINGW64 /d/PROGRAMING/GIT/PROJECT (master)
+$ git rm PR1.txt
+fatal: pathspec 'PR1.txt' did not match any files
+
+ajaba@AMIRMAHDI MINGW64 /d/PROGRAMING/GIT/PROJECT (master)
+$ git status PR1.txt
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        PR1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+ajaba@AMIRMAHDI MINGW64 /d/PROGRAMING/GIT/PROJECT (master)
+$ git add PR1.txt
+
+ajaba@AMIRMAHDI MINGW64 /d/PROGRAMING/GIT/PROJECT (master)
+$ git status PR1.txt
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   PR1.txt
+
+ajaba@AMIRMAHDI MINGW64 /d/PROGRAMING/GIT/PROJECT (master)
+$ git status PR1.txt
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   PR1.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   PR1.txt
+
+commit massage "last edit"
